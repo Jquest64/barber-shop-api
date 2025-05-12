@@ -1,2 +1,7 @@
-gradle clean
-gradle bootRun
+#!/bin/bash
+
+# Limpa o projeto
+./gradlew clean
+
+# Inicia a aplicação com o Spring Boot
+./gradlew bootRun
